@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--dark-grey);
+    padding: 60px 0;
+    &__container{
+        display: flex;
+        align-items: baseline;
+    }
+    &__join{
+        margin-left: 70px;
+    }
+    &__column-title{
+        color: var(--white);
+        text-transform: uppercase;
+        font-family: inherit;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+    }
+    &__subscribe{
+        margin-left: 93px;
+    }
+}
